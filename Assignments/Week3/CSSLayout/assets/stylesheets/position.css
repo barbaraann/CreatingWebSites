@@ -1,0 +1,62 @@
+.static {
+    position: static;
+    width:150px;
+    height: 150px;
+    background-color: #6f8b0f;
+
+}
+
+.relative {
+    position: relative;
+    left: 150px;
+    width: 150px;
+    height: 150px;
+    background-color: darkorange ;
+
+}
+
+.relative1 {
+    position: relative;
+    top:50px;
+    left: 300px;
+    width:150px;
+    height: 150px;
+    background-color: darkslateblue;
+
+}
+
+.relative2 {
+    position: relative;
+    top: -200px;
+    left: 400px;
+    width:150px;
+    height: 150px;
+    background-color: saddlebrown;
+
+}
+
+.fixed {
+    position: fixed;
+    bottom:0px;
+    right:0;
+    width:150px;
+    height: 150px;
+    background-color: darkviolet;
+
+}
+
+.absolute {
+    position: absolute;
+    top: 200px;
+    right: 200px;
+    width:150px;
+    height: 150px;
+    background-color: crimson;
+
+}
+p {
+    padding:5px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: .8em;
+
+}

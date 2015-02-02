@@ -1,0 +1,17 @@
+.small {
+    width: 200px;
+    height:200px;
+    margin: 20px auto;
+    background-color: darkgreen;
+
+}
+
+.large {
+    width: 200px;
+    height:200px;
+    margin: 20px auto;
+    padding: 50px;
+    border: 50px solid;
+    background-color: darkorange;
+    border-color: darkslateblue;
+}

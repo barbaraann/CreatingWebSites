@@ -1,0 +1,100 @@
+/*
+==============================
+Reset
+==============================
+*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*
+=============================
+Grid
+=============================
+*/
+.container {
+    margin:0 auto;
+    max-width:960px;
+}
+/*
+===============================
+Clearfix
+===============================
+*/
+
+.container:before,
+.container:after {
+    content: " ";
+    display: block;
+    clear:both;
+}
+
+/*
+==================================
+Header, Footer, Content Area common to all pages
+==================================
+*/
+
+.header,
+.footer{
+    background-color: #600;
+    height:10%;
+    padding: 10px 0px 10px 0px;
+
+}
+h1,
+.footer p {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.footer_nav a{
+    padding: 5px 15px 5px 10px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: small;
+    color: #999;
+
+}
+
+.content {
+    background-color: #fff;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #000;
+    font-size: 1.2em;
+}
+
+.content p {
+    margin: 10px 30px 10px 30px;
+
+}
+
+span {
+    color:#600;
+    font-weight:bold;
+}
+/*
+=======================================
+Content on Index/Home Page
+======================================
+*/
+.home_page_nav {
+
+    margin-left: 200px;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+
+.home_page_nav ol li a {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #000;
+    text-decoration: none;
+}
+
+.home_page_nav ol li a:hover {
+    color: #600;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+

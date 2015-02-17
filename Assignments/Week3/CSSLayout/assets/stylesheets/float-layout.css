@@ -1,0 +1,43 @@
+.floatLayoutExample {
+    border: solid 2px black;
+}
+
+.nav-floatLayoutExample{
+
+    float: left;
+    width: 200px;
+    height:200px;
+    background-color: darkorange;
+}
+
+.section-floatLayoutExample {
+    margin-left: 200px;
+    height: 100px;
+    background-color: lightgreen;
+    border: solid 2px darkgreen;
+}
+
+.one {
+    margin-top:-200px;
+}
+.footer-floatLayoutExample {
+    clear: both;
+    height: 50px;
+    bottom:0;
+    left:0;
+    background-color: violet;
+}
+.floatLayoutExample p {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: #600;
+    text-align: center;
+    line-height: 2em;
+}
+.span-floatLayoutExample a {
+    color: #660000;
+    text-decoration: none;
+
+}
+

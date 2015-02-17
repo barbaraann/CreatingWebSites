@@ -1,0 +1,38 @@
+.positionExample {
+    border: solid 2px black;
+}
+
+.navPositionExample{
+    position:relative;
+    left:0;
+    width: 200px;
+    height:200px;
+    background-color: darkorange;
+}
+
+.sectionPositionExample {
+    margin-left: 200px;
+    height: 100px;
+    background-color: lightgreen;
+    border: solid 2px darkgreen;
+}
+
+.one {
+    margin-top:-200px;
+}
+.footerPositionExample {
+    clear: both;
+    height: 50px;
+    bottom:0;
+    left:0;
+    background-color: violet;
+}
+.positionExample p{
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: #600;
+    text-align: center;
+    line-height: 2em;
+
+}

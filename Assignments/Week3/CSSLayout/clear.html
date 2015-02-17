@@ -2,15 +2,51 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title></title>
+    <title>Clear</title>
+    <link rel="stylesheet" href="assets/stylesheets/main.css">
+    <link rel="stylesheet" href="assets/stylesheets/clear.css">
 </head>
 <body>
-<header>
+<header class="header container">
     <h1>Clear</h1>
 </header>
-<section></section>
-<footer>
-    <p>CIT 85 Week 3 CSS Layout Assignment, January 29, 2015</p>
+<section class="container content">
+    <p><span>Clear</span> controls the behavior of floats. Both boxes have <span>float:left</span> with the aqua section following. However, Box 2 has <span>.after-box2 {
+    clear: left;} </span>and that makes the 2nd aqua section go below Box 2.
+</p>
+</section>
+<section class="container">
+<div class="box1"><span>Box 1</span></div>
+<section class=" section no-clear container">
+</section>
+
+<div class="box2"><span>Box 2</span>
+</div>
+<section class="section after-box2 container">
+</section>
+</section>
+<footer class="footer container">
+    <p>Barbara Monis, CIT 85 Week 3 CSS Layout Assignment, January 29, 2015</p>
+    <nav class="footer_nav">
+        <a href="index.html">Home</a>
+        | <a href="nolayout.html">No Layout</a>
+        | <a href="display.html">Display</a>
+        | <a href="margin_auto.html">Margin:auto</a>
+        | <a href="max_width.html">Max-width</a>
+        | <a href="box_model.html">Box Model</a>
+        | <a href="box_sizing.html">Box Sizing</a>
+        | <a href="position.html">Position</a>
+        | <a href="position_example.html">Position Example</a>
+        | <a href="float.html">Float</a>
+        | <a href="clear.html">Clear</a>
+        | <a href="clearfix_hack.html">Clearfix Hack</a>
+        | <a href="float_layout.html">Float Layout</a>
+        | <a href="percent_width.html">Percent Width</a>
+        | <a href="media_queries.html">Media Queries</a>
+        | <a href="inline-block.html">In-line Block</a>
+        | <a href="inline-block.html">In-line Block Layout</a>
+        | <a href="column.html">Column</a>
+        | <a href="flexbox.html">Flexbox</a> </nav>
 </footer>
 </body>
 </html>

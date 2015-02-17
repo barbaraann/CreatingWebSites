@@ -1,0 +1,19 @@
+.clearfix {
+
+    overflow: auto;
+    zoom: 1;
+    margin: 10px;
+}
+
+div img {
+    float: right;
+    width:50%;
+}
+
+.clearfixExample {
+   float:right;
+    width:75%;
+    border: 1px solid #600;
+    clear: both;
+}
+

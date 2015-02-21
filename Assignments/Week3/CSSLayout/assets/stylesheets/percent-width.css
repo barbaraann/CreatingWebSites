@@ -1,8 +1,11 @@
 .clearfix {
-
+    float:right;
+    width:75%;
     overflow: auto;
     zoom: 1;
     margin: 10px;
+    border: 1px solid #600;
+    vertical-align: top;
 }
 
 div img {
@@ -11,9 +14,14 @@ div img {
 }
 
 .clearfixExample {
-   float:right;
-    width:75%;
-    border: 1px solid #600;
     clear: both;
+     -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+             box-sizing: border-box;
+
 }
 
+.left {
+    width:25%;
+    vertical-align: top;
+}

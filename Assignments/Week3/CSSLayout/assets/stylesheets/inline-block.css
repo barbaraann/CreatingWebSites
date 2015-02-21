@@ -1,0 +1,18 @@
+.box {
+    display: inline-block;
+    width: 220px;
+    height: 100px;
+    margin: .25em;
+    border-radius: 5px;
+}
+
+.red {
+    background-color: red;
+}
+.yellow {
+    background-color: yellow;
+}
+
+.orange {
+    background-color: orange;
+}

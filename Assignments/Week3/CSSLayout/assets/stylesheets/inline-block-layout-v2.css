@@ -1,0 +1,26 @@
+.container1 {
+    /*position: absolute;*/
+    border: solid 2px black;
+}
+
+/*.footer-inlineBlockExample{*/
+    /*background-color: violet;*/
+/*}*/
+
+
+.section1{
+    background-color: lightgreen;
+    border: solid 2px darkgreen;
+
+}
+
+nav {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+}
+.flex-column {
+    display: inline-block;
+    vertical-align: top;
+    width: 75%;
+}

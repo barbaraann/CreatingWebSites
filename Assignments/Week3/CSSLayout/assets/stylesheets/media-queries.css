@@ -1,0 +1,30 @@
+.mediaQueryExample {
+    border: solid 2px black;
+}
+
+.footer-mediaQueryExample{
+    background-color: violet;
+}
+.nav-mediaQueryExample {
+    background-color: darkorange;
+}
+
+.section-mediaQueryExample{
+    background-color: lightgreen;
+    border: solid 2px darkgreen;
+}
+@media screen and (min-width:600px) {
+    .nav-mediaQueryExample {
+        float: left;
+        width: 25%;
+            }
+    .section-mediaQueryExample {
+        margin-left: 25%;
+
+    }
+}
+@media screen and (max-width:599px) {
+    .nav-mediaQueryExample li {
+        display: inline;
+    }
+}
